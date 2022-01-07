@@ -1,0 +1,31 @@
+{
+	"name": "url-shortener",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"devStart": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dip4012/URL-Shortener.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dip4012/URL-Shortener/issues"
+	},
+	"homepage": "https://github.com/dip4012/URL-Shortener#readme",
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"ejs": "^3.1.6",
+		"express": "^4.17.2",
+		"express-async-errors": "^3.1.1",
+		"mongoose": "^6.1.5",
+		"shortid": "^2.2.16"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
